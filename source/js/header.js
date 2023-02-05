@@ -7,9 +7,8 @@ document.write('' +
     '<link rel="shortcut icon" href="source/img/logo.png" type="image/x-png">\n' +
     '<link rel="stylesheet" href="source/css/mystyle.css">\n' +
     '<!--\n' +
-    'Hi, It\'s TuHome. This is a good homepage theme.\n' +
-    'Github: https://github.com/ye-tutu/TuHome\n' +
-    'Gitee: https://gitee.com/ye-tutu/TuHome\n' +
+    'Hi, It\'s 可惜鸭. This is a good homepage theme.\n' +
+    'Github: https://github.com/ke-xi\n' +
     '-->' +
     '');
 
