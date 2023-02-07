@@ -1,3 +1,25 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+​
+<div id='aplayer'></div>
+​
+<script>
+    var ap = new APlayer
+    ({
+        element: document.getElementById('aplayer'),
+        showlrc: false,
+        fixed: true,
+        mini: true,
+        audio: {
+            title: '半岛铁盒',
+            author: '周杰伦',
+            url: 'https://echeverra.cn/wp-content/uploads/2022/05/周杰伦-半岛铁盒.mp3',
+            pic: 'https://echeverra.cn/wp-content/uploads/2022/05/周杰伦-半岛铁盒-mp3-image.png'
+        }
+    });
+    ap.init();
+</script>
+
 <!DOCTYPE html>
 <html  oncontextmenu=self.event.returnValue=false onselectstart="return false">
 <head oncontextmenu=self.event.returnValue=false onselectstart="return false">
@@ -8,7 +30,7 @@
 </head>
 <body>
     <div class="change" id="index_card">
-        <center><img class="change" id="favorite" style="width:160px;margin-top:-50px;" src="source/img/miku.gif"><br>
+        <center><a href="//头像跳转链接"><img class="change" id="favorite" style="width:160px;margin-top:-50px;" src="https://image.baidu.com/search/down?url=http://tva3.sinaimg.cn/large/007iGcSKly1g520s9o5srg30cd0cd7wj.gif" alt="可惜鸭"></a><br>
         <b style="font-weight: 300;font-size:200%;">可惜公主爱王子</b><br>
         <b><span style="font-weight: 300;" class="text-muted text-xs block">
         <div id="chakhsu"></div> 
@@ -81,6 +103,5 @@
             </a>
         </div>
         </center>
-</body>
 
 </html>
