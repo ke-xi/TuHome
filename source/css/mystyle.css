@@ -26,7 +26,6 @@
 body {
     margin: 100px 0;
     background-position: center;
-    background-image: url('');
     background-size: cover;
     background-repeat:repeat-x;
     background-attachment: fixed;
