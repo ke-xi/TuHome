@@ -23,16 +23,6 @@
     animation-name: fadeInLeft;
 }
 
-body {
-    margin: 100px 0;
-    background-position: center;
-    background-image: url('https://pic.yz001.online/images/2024/05/01/7D2Ym.png');
-    background-size: cover;
-    background-repeat:repeat-x;
-    background-attachment: fixed;
-    transition: 0.3s;
-}
-
 #index_card{
     background: rgba( 255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.37 );
