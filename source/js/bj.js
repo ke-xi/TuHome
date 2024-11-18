@@ -17,9 +17,9 @@ var deviceType = getDeviceType();
 
 // 根据设备类型设置背景图片
 if (deviceType === 'Android') {
-    document.body.style.backgroundImage = 'url(\'https://i0.hdslb.com/bfs/article/a910d4335158f064ed5918898210608f44562710.jpg\')';
+    document.body.style.backgroundImage = 'url(\'https://cdn.jsdelivr.net/gh/ke-xi/picx-images-hosting@master/アンノウン・マザーグース_123495003.58he9crdfp.jpg\')';
 } else if (deviceType === 'iPhone/iPad') {
-    document.body.style.backgroundImage = 'url(\'https://i0.hdslb.com/bfs/article/d823ebabcec12f8a145a821973ba714844562710.jpg\')';
+    document.body.style.backgroundImage = 'url(\'https://cdn.jsdelivr.net/gh/ke-xi/picx-images-hosting@master/70日目-BANG!_123705735.8hgi60d6xx.png\')';
 } else {
-    document.body.style.backgroundImage = 'url(\'https://i0.hdslb.com/bfs/article/13db13cb5ea3d9a9c5f02c8f56c22cfd44562710.jpg\')';
+    document.body.style.backgroundImage = 'url(\'https://cdn.jsdelivr.net/gh/ke-xi/picx-images-hosting@master/大脱走_124388672.9kg7gw648w.jpg\')';
 }
